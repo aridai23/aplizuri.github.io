@@ -1,0 +1,199 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f4f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    border: 2px solid rgb(97, 16, 57);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para centrar el texto en la sección Sobre Nosotros */
+.sobre-nosotros {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    color: rgb(97, 16, 57);
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(97, 16, 57);
+}
+
+.item {
+    text-align: justify;
+}
+
+.principal h3, .principal p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    color: rgb(97, 16, 57);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#logo img {
+    width: 180px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(97, 16, 57);
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.principal {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.principal h2 {
+    font-size: 28px;
+    color: rgb(97, 16, 57);
+}
+
+.boton-ver-mas {
+    display:inline-block;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(97, 16, 57);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.boton-ver-mas:hover {
+    background-color: #a12939;
+}
+
+/* Estilo para la sección de productos */
+productos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+producto {
+    flex: 1;
+    border: 2px solid rgb(97, 16, 57);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+producto h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: rgb(97, 16, 57);
+}
+
+producto p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666666;
+}
+
+recuadro {
+    border: 2px solid rgb(97, 16, 57);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+secundario {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+secundario recuadro {
+    flex: 1;
+    text-align: justify;
+    color: #666666;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(97, 16, 57);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .contacto ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

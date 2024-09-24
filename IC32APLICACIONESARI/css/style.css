@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{}
+
+#contenedor{
+    width: 80%;
+    margin: 10px auto;
+}
+
+nav{
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+nav ul li a{
+    color: rgb(97, 16, 57);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+}
+
+#logo{
+    float: left;
+    width: 15%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#menu{
+    float: left;
+    width: 65%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+#buscar{
+    float:left;
+    width: 20%;
+    height: 100px;
+    color: rgb(97, 16, 57);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+aside{
+    float: left;
+    width: 20%;
+    height: 100px;
+    background-color: rgb(236, 229, 229);
+    color: rgb(97, 16, 57);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+header{ clear: both;/* anula flotamoento*/
+    height: 650px; 
+    background-color: rgb(243, 232, 232);
+    background:silver url("https://media.architecturaldigest.com/photos/65243d6b360e95b7a4906fdd/16:9/w_2560%2Cc_limit/Rare_SelenaOffice_0331_Flannery%2520Underwood.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h1{
+    text-align:left;
+    color: rgb(97, 16, 57);
+}
+
+h2{
+    text-align:right;
+    color: rgb(97, 16, 57);
+}
+h3{
+    text-align:center;
+    color: rgb(240, 232, 236);
+}
+
+h4{
+    text-align: center;
+    color: rgb(241, 236, 238);
+}
+p{
+    text-align: center;
+     color: rgb(97, 16, 57);
+}
+#izq{
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: rgb(97, 16, 57);
+}
+
+#centro{
+    float: left;
+    width: 60%;
+    height: 500px;
+    background-color: rgb(97, 16, 57);
+}
+
+#der{
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: rgb(97, 16, 57);
+}
+
+#uno{
+    clear: both;
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+#dos{
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    
+    clear: both;
+    height: 40px;
+    background-color:rgb(97, 16, 57);
+}
+
+

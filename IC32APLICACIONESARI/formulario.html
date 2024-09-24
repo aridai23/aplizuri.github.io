@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+
+    <link rel="stylesheet"href="css/form.css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <form method="post">   
+            
+<label for="uno">Nombre</label><br><br>
+<input type="text" id="nombre" name="nombre" autofocus required placeholder="Proporcione un nombre">
+
+<p>
+<label for="uno">Apellidos</label><br><br>
+<input type="text" id="nombre" name="apellidos" size="40" required placeholder="Proporcione un apellido">
+</p>
+<p>
+    <input type="submit" name="Enviar" value="Enviar">
+
+</p>
+<p>
+    <label for="estatus">Estatus</label><br><br>
+    <input type="text" id="nombre" name="estatus" value="activo" readonly title="Este valor es solo una lectura"><br><br>
+</p>
+
+<p>
+    <label for="contraseña">Su contraseña</label><br>
+    <input type="password" id="contraseña" name="contraseña" required placeholder="Ejemplo:Antonios0#">
+</p>
+<p>
+    <input type="hidden" name="nip" value="769">
+</p>
+<p>
+    <label for="navegador">Navegador Favorito</label>
+    <select id="navegador" name="navegador" required>
+        <option value="chrome">Google</option>
+        <option value="Opera">Opera</option>
+        <option value="Safari">Safari</option>
+        <option value="Firefox">Firefox</option>
+    </select>
+</p>
+<p>
+    <input type="submit" name="enviar" value="Enviar">
+</p>
+
+    
+
+        </form>
+    </div>
+</body>
